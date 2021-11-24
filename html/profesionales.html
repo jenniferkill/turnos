@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Profesionales</title>
+</head>
+<body>
+    <div class="menu">
+        <ul class="nav nav-tabs justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="profesionales.html">Profesionales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="altaTurnos.html">Turnos</a>
+            </li>
+        </ul>
+    </div>
+    <div class="profesionales-container">
+        <form id="altaProfesional" >
+            <div class="mb-3">
+              <label for="Dni" class="form-label">Dni</label>
+              <input type="number" name="dni" placeholder="Dni" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="Nombre" class="form-label">Nombre</label>
+                <input type="text" name="nombre" placeholder="Tu nombre" class="form-control">
+              </div> 
+            <div class="mb-3">
+              <label for="Telefono" class="form-label">Telefono</label>
+              <input type="number" name="telefono" placeholder="Telefono" class="form-control" >
+            </div>
+            <div class="mb-3">
+                <label for="Email1" class="form-label">Email address</label>
+                <input type="email" name="email" class="form-control" placeholder="a@a.com">
+            </div>
+            <div class="card-group" id="selecciones">
+                
+                <div id="tratamiento" class="card">
+                    <h5 class="card-title">Tratamientos</h5>
+                    <div class="card-body" id="checkboxTratamientos">
+                        <div >
+                            <input  type="checkbox" name="Tratamientos" value="limpieza">
+                            <label class="form-check-label" for="flexCheckDefault">Limpieza profunda</label>
+                        </div>
+                        <div>
+                            <input  type="checkbox" name="Tratamientos" value="extracciones" >
+                            <label class="form-check-label" for="flexCheckDefault">Extracciones</label>
+                        </div>
+                        <div >
+                            <input  type="checkbox" name="Tratamientos" value="armado">
+                            <label class="form-check-label" for="flexCheckDefault">Armado de Tratamiento</label>
+                        </div>
+                        <div >
+                            <input  type="checkbox" name="Tratamientos" value="masajeA">
+                            <label class="form-check-label" for="flexCheckDefault">Masaje Anti-Age</label>
+                        </div>
+                        <div >
+                            <input  type="checkbox" name="Tratamientos" value="masajeR" >
+                            <label class="form-check-label" for="flexCheckDefault">Masaje Relajante</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="dias" class="card" >
+                    <h5 class="card-title">Dias</h5>
+                    <div class="card-body" >
+                        <div>
+                            <input  type="checkbox" name="Dias" value="lunes">
+                            <label class="form-check-label" for="flexCheckDefault"> Lunes </label>
+                        </div>
+                        <div>
+                            <input  type="checkbox" name="Dias" value="martes" >
+                            <label class="form-check-label" for="flexCheckDefault"> Martes </label>
+                        </div>
+                        <div>
+                            <input  type="checkbox" name="Dias" value="miercoles">
+                            <label class="form-check-label" for="flexCheckDefault"> Miercoles</label>
+                        </div>
+                        <div>
+                            <input  type="checkbox" name="Dias" name="jueves">
+                            <label class="form-check-label" for="flexCheckDefault"> Jueves </label>
+                        </div>
+                        <div>
+                            <input  type="checkbox" name="Dias" name="viernes">
+                            <label class="form-check-label" for="flexCheckDefault">Viernes</label>
+                        </div>
+                        <div>
+                            <input  type="checkbox" name="Dias" value="sabado" >
+                            <label class="form-check-label" for="flexCheckDefault"> Sabado </label>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="horario" class="card">
+                    <h5 class="card-title">horarios</h5>
+                    <div class="card-body">
+                        <div >
+                            <input  type="checkbox" name="horarios" value="diez" >
+                            <label class="form-check-label" for="flexCheckDefault">10:00</label>
+                        </div>
+                        <div >
+                            <input  type="checkbox" name="horarios" value="once">
+                            <label class="form-check-label" for="flexCheckDefault">11:00</label>
+                        </div>
+                        <div >
+                            <input  type="checkbox" name="horarios" value="doce">
+                            <label class="form-check-label" for="flexCheckDefault">12:00</label>
+                        </div>
+                        <div >
+                            <input  type="checkbox" name="horarios" value="trece">
+                            <label class="form-check-label" for="flexCheckDefault">13:00</label>
+                        </div>
+                        <div >
+                            <input  type="checkbox" name="horarios" value="catorce">
+                            <label class="form-check-label" for="flexCheckDefault"> 14:00</label>
+                        </div>
+                 </div>
+                </div>
+            </div>
+
+          </form>
+          <button type="click" class="btn btn-info" id="agregar">agregar</button>
+
+          <button type="submit" class="btn btn-info">Enviar</button>
+    </div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="/js/obj.js"></script>
+   <script src="/js/profesionales.js"></script>
+</body>
+</html>

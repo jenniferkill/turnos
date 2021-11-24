@@ -1,1 +1,10 @@
-
+body{
+    
+}
+.principal{
+    background-image: url("/imagenes/fondo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 200px;
+    padding: 100px;
+}
