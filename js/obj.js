@@ -9,7 +9,7 @@ class Cliente {
     
 }
 class Profesional {
-    constructor (dni,nombre,telefono,email,tratamientos,dias,horarios,profesion){
+    constructor (dni,nombre,telefono,email,tratamientos,profesion,dias,horarios){
         this.dni = dni;
         this.nombre = nombre;
         this.telefono = telefono;

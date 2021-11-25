@@ -19,7 +19,7 @@
             </li>
         </ul>
     </div>
-    <div class="profesionales-container">
+    <div class="profesionales-container ">
         <form id="altaProfesional" >
             <div class="mb-3">
               <label for="Dni" class="form-label">Dni</label>
@@ -37,29 +37,33 @@
                 <label for="Email1" class="form-label">Email address</label>
                 <input type="email" name="email" class="form-control" placeholder="a@a.com">
             </div>
+            <div class="mb-3">
+                <label for="profesion" class="form-label">Profesion </label>
+                <input type="text" name="profesion" class="form-control" placeholder="Profesion">
+            </div>
             <div class="card-group" id="selecciones">
                 
                 <div id="tratamiento" class="card">
                     <h5 class="card-title">Tratamientos</h5>
                     <div class="card-body" id="checkboxTratamientos">
                         <div >
-                            <input  type="checkbox" name="Tratamientos" value="limpieza">
+                            <input  type="checkbox" name="tratamientos" value="limpieza">
                             <label class="form-check-label" for="flexCheckDefault">Limpieza profunda</label>
                         </div>
                         <div>
-                            <input  type="checkbox" name="Tratamientos" value="extracciones" >
+                            <input  type="checkbox" name="tratamientos" value="extracciones" >
                             <label class="form-check-label" for="flexCheckDefault">Extracciones</label>
                         </div>
                         <div >
-                            <input  type="checkbox" name="Tratamientos" value="armado">
+                            <input  type="checkbox" name="tratamientos" value="armado">
                             <label class="form-check-label" for="flexCheckDefault">Armado de Tratamiento</label>
                         </div>
                         <div >
-                            <input  type="checkbox" name="Tratamientos" value="masajeA">
+                            <input  type="checkbox" name="tratamientos" value="masajeA">
                             <label class="form-check-label" for="flexCheckDefault">Masaje Anti-Age</label>
                         </div>
                         <div >
-                            <input  type="checkbox" name="Tratamientos" value="masajeR" >
+                            <input  type="checkbox" name="tratamientos" value="masajeR" >
                             <label class="form-check-label" for="flexCheckDefault">Masaje Relajante</label>
                         </div>
                     </div>
@@ -68,27 +72,27 @@
                     <h5 class="card-title">Dias</h5>
                     <div class="card-body" >
                         <div>
-                            <input  type="checkbox" name="Dias" value="lunes">
+                            <input  type="checkbox" name="dias" value="lunes">
                             <label class="form-check-label" for="flexCheckDefault"> Lunes </label>
                         </div>
                         <div>
-                            <input  type="checkbox" name="Dias" value="martes" >
+                            <input  type="checkbox" name="dias" value="martes" >
                             <label class="form-check-label" for="flexCheckDefault"> Martes </label>
                         </div>
                         <div>
-                            <input  type="checkbox" name="Dias" value="miercoles">
+                            <input  type="checkbox" name="dias" value="miercoles">
                             <label class="form-check-label" for="flexCheckDefault"> Miercoles</label>
                         </div>
                         <div>
-                            <input  type="checkbox" name="Dias" name="jueves">
+                            <input  type="checkbox" name="dias" name="jueves">
                             <label class="form-check-label" for="flexCheckDefault"> Jueves </label>
                         </div>
                         <div>
-                            <input  type="checkbox" name="Dias" name="viernes">
+                            <input  type="checkbox" name="dias" name="viernes">
                             <label class="form-check-label" for="flexCheckDefault">Viernes</label>
                         </div>
                         <div>
-                            <input  type="checkbox" name="Dias" value="sabado" >
+                            <input  type="checkbox" name="dias" value="sabado" >
                             <label class="form-check-label" for="flexCheckDefault"> Sabado </label>
                         </div>
                     </div>
@@ -120,11 +124,9 @@
                  </div>
                 </div>
             </div>
-
-          </form>
-          <button type="click" class="btn btn-info" id="agregar">agregar</button>
-
-          <button type="submit" class="btn btn-info">Enviar</button>
+           <!-- <button type="submit" class="btn btn-info">Continuar</button>-->
+           <a href="altaTurnos.html" class="btn btn-primary" type="submit">Continuar</a>
+        </form>          
     </div>
    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
    <script src="/js/obj.js"></script>
