@@ -1,4 +1,8 @@
 body{
+    font-family: 'Neucha';
+    margin: 30px;
+    padding: 5px;
+    color: #4E1A3D;
     
 }
 .principal{
@@ -7,4 +11,29 @@ body{
     background-position: center;
     margin: 200px;
     padding: 100px;
+    
+}
+.nav-item 
+
+.nav-item a:link {
+    color: #4E1A3D;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.nav-item   a:visited {
+    color: #4E1A3D;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.nav-item   a:hover {
+    color: #DA70D6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.btn{
+    background-color: #4E1A3D;
+    color: #FFDAB9;
 }

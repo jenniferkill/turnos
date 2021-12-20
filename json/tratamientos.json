@@ -1,0 +1,33 @@
+[
+    {
+        "id":"1",
+        "titulo": "Limpieza Profunda",
+        "descripcion": "Una de las rutinas de belleza más recomendables y necesarias es la de la limpieza de cutis profunda. Ninguna piel puede estar perfecta si no se limpia en profundidad y a conciencia. Por muy buenos productos de maquillaje que empleemos o muy guapas que seamos, si nuestro cutis no está limpio por dentro no se verá bien por fuera.",
+        "procedimientos": "Consiste en limpiar el rostro de posibles restos de maquillaje o impurezas,luego hacemos una exfoliación o peeling, a continuación, se aplica vapor de ozono para humedecer la piel, ablandarla, abrir los poros y para terminar, aplicamos una mascarilla adecuada a cada tipo de piel."
+    },
+    {
+        "id":"2",
+        "titulo": "Hidratacion profunda",
+        "descripcion": "¿Sabías que el agua que hay en tu piel disminuye a partir de los 30? El primer paso para combatirlo es una correcta hidratación facial, ya que la dermis del rostro es la que está más expuesta a los agentes externos",
+        "procedimientos": "Consiste en limpiar el rostro de posibles restos de maquillaje o impurezas, luego hacemos una exfoliación o peeling, a continuación, se aplica vapor de ozono para humedecer la piel, ablandarla, se agregan productos propios para la hidratación y para terminar, aplicamos una mascarilla adecuada a cada tipo de piel y sella los productos antes puestos para que hagan efecto durante mas tiempo "
+    },
+    {
+        "id":"3",
+        "titulo": "Extracciones",
+        "descripcion": "Una de las rutinas de belleza más recomendables y necesarias es la de la limpieza de cutis profunda. Ninguna piel puede estar perfecta si no se limpia en profundidad y a conciencia. Por muy buenos productos de maquillaje que empleemos o muy guapas que seamos, si nuestro cutis no está limpio por dentro no se verá bien por fuera.",
+        "procedimientos": "Consiste en limpiar el rostro de posibles restos de maquillaje o impurezas, luego se hace una  exfoliación o peeling, en el que con mucho mimo y cuidado desincrustamos las impurezas más profundas de tu cutis, a continuación  que consiste en aplicar vapor de ozono para humedecer la piel, ablandarla, abrir los poros y los puntos negros luego se procede a  extraer los puntos negros.Esta labor la llevamos a cabo con muchísimo delicadeza, presionando con las yemas de los dedos , a continuación,  se aplica alta frecuencia para cerrar los poros, cauterizar y oxigenar la piel después viene Drenaje linfático facial que ayuda a mover todas las sustancias que no necesita la piel ahora y desinflama  y, para terminar, aplicamos  una mascarilla adecuada a cada tipo de piel."
+    },
+    {
+        "id":"4",
+        "titulo": "Armado de Tratamiento",
+        "descripcion": "Una de las rutinas de belleza más recomendables y necesarias es la de la limpieza de cutis profunda. Ninguna piel puede estar perfecta si no se limpia en profundidad y a conciencia. Por muy buenos productos de maquillaje que empleemos o muy guapas que seamos, si nuestro cutis no está limpio por dentro no se verá bien por fuera.",
+        "procedimientos": "Consiste en evaluar la piel y revisar cuales son los mejores productos  para usar diariamente y una limpieza profunda"
+    },
+    {
+        "id":"5",
+        "titulo": "Masaje Anti-Age",
+        "descripcion": "Una de las rutinas de belleza más recomendables y necesarias es la de la limpieza de cutis profunda. Ninguna piel puede estar perfecta si no se limpia en profundidad y a conciencia. Por muy buenos productos de maquillaje que empleemos o muy guapas que seamos, si nuestro cutis no está limpio por dentro no se verá bien por fuera.",
+        "procedimientos": "Consiste en una limpieza profunda y se agrega un masaje para activar la circulacion que ayuda a disminuir lineas de expresion y arrugas cronologicas "
+    }
+    
+]

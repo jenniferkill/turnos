@@ -1,0 +1,128 @@
+[
+    {
+        "dni": "345692",
+        "nombre": "Raul",
+        "telefono": "3420934923",
+        "email":"r@gmail.com",
+        "tratamientos": "Limpieza Profunda",
+        "profesion":"cosmiatra",
+        "dias":[
+            "lunes",
+            "martes",
+            "jueves"
+        ],
+        "horarios": [
+            "10:00",
+            "11:00",
+            "12:00"
+        ]
+    },
+    {
+        "dni": "2194512",
+        "nombre": "Francisca",
+        "telefono": "36453123",
+        "email":"f@gmail.com",
+        "tratamientos":"Limpieza Profunda",
+        "profesion":"cosmiatra y cosmetologa",
+        "dias":[
+            "miercoles",
+            "jueves",
+            "viernes"
+        ],
+        "horarios": [
+            "13:00",
+            "14:00",
+            "15:00"
+        ]
+    },
+    {
+        "dni": "0974535",
+        "nombre": "Ester",
+        "telefono": "24563453",
+        "email":"e@gmail.com",
+        "tratamientos":"Hidratacion profunda",
+        "profesion":"cosmiatra y cosmetologa",
+        "dias":[
+            "lunes",
+            "martes",
+            "jueves"
+        ],
+        "horarios": [
+            "10:00",
+            "11:00",
+            "12:00"
+        ]
+    },
+    {     
+        "dni": "4356856743",
+        "nombre": "Juliana",
+        "telefono": "23452346",
+        "email":"j@gmail.com",
+        "tratamientos":"Extracciones",
+        "profesion":"cosmiatra y cosmetologa",
+        "dias":[
+            "lunes",
+            "martes",
+            "jueves"
+        ],
+        "horarios": [
+            "10:00",
+            "11:00",
+            "12:00"
+        ]
+    },
+    {
+        "dni": "2345876",
+        "nombre": "Marcos",
+        "telefono": "56463456",
+        "email":"m@gmail.com",
+        "tratamientos":"Hidratacion profunda",
+        "profesion":"cosmiatra",
+        "dias":[
+            "miercoles",
+            "jueves",
+            "viernes"
+        ],
+        "horarios": [
+            "13:00",
+            "14:00",
+            "15:00"
+        ]
+    },
+    {
+        "dni": "4325324",
+        "nombre": "Joaquin",
+        "telefono": "456658465",
+        "email":"jo@gmail.com",
+        "tratamientos":"Hidratacion profunda",
+        "profesion":"esteticista",
+        "dias":[
+            "lunes",
+            "martes",
+            "jueves"
+        ],
+        "horarios": [
+            "10:00",
+            "11:00",
+            "12:00"
+        ]
+    },
+    {
+        "dni": "78095645",
+        "nombre": "Esteban",
+        "telefono": "345676986",
+        "email":"es@gmail.com",
+        "tratamientos":"Extracciones",
+        "profesion":"cosmiatra y cosmetologa",
+        "dias":[
+            "miercoles",
+            "jueves",
+            "viernes"
+        ],
+        "horarios": [
+            "13:00",
+            "14:00",
+            "15:00"
+        ]
+    }
+]

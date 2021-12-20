@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "dias": "Lunes"
+    },
+    {
+        "id": "2",
+        "dias": "Martes"
+    },
+    {
+        "id": "3",
+        "dias": "Miercoles"
+    },
+    {
+        "id": "4",
+        "dias": "Jueves"
+    },
+    {
+        "id": "5",
+        "dias": "Viernes"
+    },
+    {
+        "id": "6",
+        "dias": "Sabado"
+    }
+]

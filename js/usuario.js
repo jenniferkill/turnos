@@ -11,7 +11,13 @@ $(() =>{
     // guardar informacion en el local storage
     localStorage.setItem("clientes",JSON.stringify(clientes))
     $('#cliente').trigger('reset')
+    $('.usuario-container').fadeOut()
+     
+        window.location.href = "./tratamiento.html"
+     
+
   })
+
 })
 
 
